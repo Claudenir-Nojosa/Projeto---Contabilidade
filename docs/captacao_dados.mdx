@@ -1,0 +1,49 @@
+# Projeto de Contabilidade
+![Etapas](https://images.datacamp.com/image/upload/v1688736364/image_d844eb0462.png)
+
+## Descrição
+Este projeto tem como objetivo criar e importar dados para tabelas de um banco de dados PostgreSQL, utilizando dados fictícios gerados com o Mockaroo e processados em arquivos CSV.
+
+## Estrutura do Projeto
+O projeto inclui as seguintes tabelas:
+- **clientes**
+- **colaborador**
+- **financeiro**
+- **marketing**
+- **operacional**
+- **serviço**
+
+## Etapas Realizadas
+
+### 1. Criação das Tabelas no CSV
+- Utilizei o Mockaroo para gerar dados fictícios e criei os seguintes arquivos CSV:
+  - `clientes.csv`
+  - `colaborador.csv`
+  - `financeiro.csv`
+  - `marketing.csv`
+  - `operacional.csv`
+  - `serviço.csv`
+
+### 2. Criação da Tabela `cliente` no PostgreSQL
+- Criei a tabela `cliente` no PostgreSQL com o seguinte script:
+
+```sql
+CREATE TABLE cliente (
+	cliente_id SERIAL PRIMARY KEY,
+	nome VARCHAR(100),
+	data_adesao DATE,
+	data_cancelamento DATE,
+	ticket_medio DECIMAL(10,2)
+);
+```
+
+### 3. Importação do CSV para o PostgreSQL
+
+Aprendi que o CSV só pode ser importado se for colocado no schema public do banco de dados.
+Para importar arquivos CSV com cabeçalhos, é necessário selecionar a opção header durante a importação.
+Enfrentei um problema ao importar o CSV devido à presença do cifrão na coluna ticket_medio. Para resolver isso, editei o arquivo CSV no Notepad++ e substituí os cifrões por "". Com essa correção, consegui importar o arquivo com sucesso.
+
+#### Observações
+
+  - A tabela cliente foi criada e os dados foram importados com sucesso após a modificação do arquivo CSV.
+  - O processo de importação pode falhar se o CSV não estiver no schema public ou se não for especificado que o arquivo possui um cabeçalho.
