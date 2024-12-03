@@ -37,7 +37,79 @@ CREATE TABLE cliente (
 );
 ```
 
-### 3. Importação do CSV para o PostgreSQL
+### 3. Criação da Tabela `colaborador` no PostgreSQL
+- Criei a tabela `colaborador` no PostgreSQL com o seguinte script:
+
+```sql
+CREATE TABLE colaborador(
+	colaborador_id SERIAL PRIMARY KEY NOT NULL,
+	primeiro_nome VARCHAR(100) NOT NULL,
+	segundo_nome VARCHAR(100) NOT NULL,
+	cargo VARCHAR(100) NOT NULL,
+	salario DECIMAL(6,0) NOT NULL
+);
+```
+
+### 4. Criação da Tabela `marketing` no PostgreSQL
+- Criei a tabela `marketing` no PostgreSQL com o seguinte script:
+
+```sql
+CREATE TABLE marketing(
+	cliente_id INT NOT NULL,
+	canal_aquisicao VARCHAR(150) NOT NULL,
+	nome_campanha VARCHAR(150),
+	CONSTRAINT fk_cliente FOREIGN KEY (cliente_id)
+		REFERENCES cliente (cliente_id) ON DELETE CASCADE
+);
+```
+
+### 5. Criação da Tabela `servico` no PostgreSQL
+- Criei a tabela `servico` no PostgreSQL com o seguinte script:
+
+```sql
+CREATE TABLE servico (
+	servico_id SERIAL PRIMARY KEY NOT NULL,
+	nome_servico VARCHAR(100)
+);
+```
+
+### 6. Criação da Tabela `operacional` no PostgreSQL
+- Criei a tabela `operacional` no PostgreSQL com o seguinte script:
+
+```sql
+CREATE TABLE operacional(
+	cliente_id INT NOT NULL,
+	servico_id INT NOT NULL,
+	colaborador_id INT NOT NULL,
+	prazo_entrega INT NOT NULL,
+	data_entrega INT NOT NULL,
+	CONSTRAINT fk_cliente FOREIGN KEY (cliente_id)
+		REFERENCES cliente (cliente_id) ON DELETE CASCADE,
+	CONSTRAINT fk_servico FOREIGN KEY (servico_id)
+		REFERENCES servico (servico_id) ON DELETE CASCADE,
+	CONSTRAINT fk_colaborador FOREIGN KEY (colaborador_id)
+		REFERENCES colaborador (colaborador_id) ON DELETE CASCADE
+);
+```
+
+### 7. Criação da Tabela `financeiro` no PostgreSQL
+- Criei a tabela `financeiro` no PostgreSQL com o seguinte script:
+
+```sql
+CREATE TABLE financeiro(
+	cliente_id INT NOT NULL,
+	servico_id INT NOT NULL,
+	receita DECIMAL (10,2) NOT NULL,
+	despesa DECIMAL (10,2) NOT NULL,
+	CONSTRAINT fk_cliente FOREIGN KEY (cliente_id)
+		REFERENCES cliente (cliente_id) ON DELETE CASCADE,
+	CONSTRAINT fk_servico FOREIGN KEY (servico_id)
+		REFERENCES servico (servico_id) ON DELETE CASCADE
+);
+```
+
+
+### 8. Importação do CSV para o PostgreSQL
 
 Aprendi que o CSV só pode ser importado se for colocado no schema public do banco de dados.
 Para importar arquivos CSV com cabeçalhos, é necessário selecionar a opção header durante a importação.

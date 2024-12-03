@@ -1,9 +1,6 @@
 cliente_id,canal_aquisicao,nome_campanha
 16,Linkedin,Promoção MEI
-277,Linkedin,Campanha Tributária 2024
 17,Google Ads,Pacote Contábil Premiu
-277,Linkedin,Feirão do Empreendedor
-257,Google Ads,Pacote Contábil Premiu
 138,Linkedin,Campanha Tributária 2024
 168,Linkedin,Pacote Contábil Premiu
 179,Linkedin,Pacote Contábil Premiu
@@ -12,106 +9,70 @@ cliente_id,canal_aquisicao,nome_campanha
 20,Facebook Ads,Feirão do Empreendedor
 32,Indicação,
 35,Facebook Ads,Feirão do Empreendedor
-252,Google Ads,Promoção MEI
-276,Evento Presencial,
 39,Linkedin,Promoção MEI
 207,Evento Presencial,
 161,Indicação,
 124,Facebook Ads,Promoção MEI
-250,Google Ads,Pacote Contábil Premiu
 184,Evento Presencial,
 151,Linkedin,Promoção MEI
 69,Facebook Ads,Feirão do Empreendedor
-253,Indicação,
 81,Indicação,
-245,Google Ads,Promoção MEI
 43,Google Ads,Promoção MEI
 6,Facebook Ads,Pacote Contábil Premiu
-260,Indicação,
 140,Linkedin,Promoção MEI
-274,Linkedin,Pacote Contábil Premiu
-295,Linkedin,Feirão do Empreendedor
 2,Google Ads,Promoção MEI
-272,Google Ads,Feirão do Empreendedor
-283,Linkedin,Promoção MEI
 71,Linkedin,Feirão do Empreendedor
 33,Linkedin,Promoção MEI
-256,Facebook Ads,Campanha Tributária 2024
 172,Evento Presencial,
 64,Facebook Ads,Campanha Tributária 2024
 17,Evento Presencial,
-238,Google Ads,Campanha Tributária 2024
-273,Linkedin,Campanha Tributária 2024
 176,Google Ads,Campanha Tributária 2024
-242,Evento Presencial,
 60,Indicação,
-242,Google Ads,Pacote Contábil Premiu
 186,Evento Presencial,
 77,Google Ads,Pacote Contábil Premiu
 56,Google Ads,Promoção MEI
 32,Linkedin,Feirão do Empreendedor
 191,Indicação,
-230,Google Ads,Pacote Contábil Premiu
-230,Evento Presencial,
 150,Facebook Ads,Performance Extrema
-255,Evento Presencial,
 120,Evento Presencial,
 195,Linkedin,Promoção MEI
 92,Indicação,
 203,Linkedin,Pacote Contábil Premiu
-238,Facebook Ads,Performance Extrema
 109,Linkedin,Performance Extrema
 2,Linkedin,Feirão do Empreendedor
-263,Linkedin,Campanha Tributária 2024
 29,Facebook Ads,Promoção MEI
 172,Linkedin,Pacote Contábil Premiu
 179,Evento Presencial,
 114,Facebook Ads,Pacote Contábil Premiu
 8,Google Ads,Performance Extrema
-248,Facebook Ads,Pacote Contábil Premiu
 171,Google Ads,Pacote Contábil Premiu
 144,Evento Presencial,
 103,Facebook Ads,Promoção MEI
 23,Evento Presencial,
 138,Google Ads,Performance Extrema
 6,Facebook Ads,Feirão do Empreendedor
-294,Facebook Ads,Promoção MEI
-245,Indicação,
 191,Indicação,
 15,Google Ads,Performance Extrema
 45,Facebook Ads,Promoção MEI
 213,Linkedin,Performance Extrema
-285,Indicação,
-259,Indicação,
 36,Facebook Ads,Promoção MEI
-277,Google Ads,Feirão do Empreendedor
 31,Evento Presencial,
-287,Linkedin,Pacote Contábil Premiu
-231,Facebook Ads,Campanha Tributária 2024
 78,Evento Presencial,
 219,Google Ads,Promoção MEI
 64,Indicação,
-239,Indicação,
 123,Facebook Ads,Promoção MEI
 80,Google Ads,Promoção MEI
 37,Facebook Ads,Pacote Contábil Premiu
 177,Evento Presencial,
 122,Google Ads,Performance Extrema
 203,Linkedin,Performance Extrema
-273,Facebook Ads,Campanha Tributária 2024
 67,Evento Presencial,
 75,Evento Presencial,
-244,Indicação,
-279,Google Ads,Pacote Contábil Premiu
 151,Indicação,
 202,Indicação,
-246,Evento Presencial,
 31,Facebook Ads,Performance Extrema
 137,Indicação,
-234,Google Ads,Feirão do Empreendedor
-242,Evento Presencial,
 95,Google Ads,Campanha Tributária 2024
-270,Facebook Ads,Pacote Contábil Premiu
 164,Google Ads,Feirão do Empreendedor
 191,Facebook Ads,Campanha Tributária 2024
 188,Google Ads,Performance Extrema
@@ -121,20 +82,13 @@ cliente_id,canal_aquisicao,nome_campanha
 175,Evento Presencial,
 211,Google Ads,Feirão do Empreendedor
 153,Indicação,
-238,Google Ads,Performance Extrema
 79,Evento Presencial,
 164,Facebook Ads,Campanha Tributária 2024
 95,Google Ads,Pacote Contábil Premiu
-266,Evento Presencial,
 86,Indicação,
 63,Evento Presencial,
 27,Indicação,
-260,Indicação,
-257,Linkedin,Performance Extrema
-230,Indicação,
-291,Linkedin,Pacote Contábil Premiu
 176,Evento Presencial,
-241,Evento Presencial,
 125,Evento Presencial,
 147,Google Ads,Feirão do Empreendedor
 19,Google Ads,Feirão do Empreendedor
@@ -151,19 +105,15 @@ cliente_id,canal_aquisicao,nome_campanha
 83,Linkedin,Promoção MEI
 210,Evento Presencial,
 26,Linkedin,Campanha Tributária 2024
-244,Facebook Ads,Performance Extrema
 138,Evento Presencial,
 212,Google Ads,Campanha Tributária 2024
 207,Linkedin,Promoção MEI
 27,Indicação,
-266,Linkedin,Pacote Contábil Premiu
 32,Google Ads,Feirão do Empreendedor
 98,Google Ads,Promoção MEI
-280,Facebook Ads,Campanha Tributária 2024
 191,Indicação,
 96,Evento Presencial,
 209,Facebook Ads,Campanha Tributária 2024
-263,Linkedin,Promoção MEI
 148,Facebook Ads,Pacote Contábil Premiu
 152,Indicação,
 20,Google Ads,Feirão do Empreendedor
@@ -172,36 +122,24 @@ cliente_id,canal_aquisicao,nome_campanha
 26,Linkedin,Feirão do Empreendedor
 85,Facebook Ads,Performance Extrema
 151,Linkedin,Campanha Tributária 2024
-275,Indicação,
 220,Indicação,
 129,Google Ads,Performance Extrema
 54,Linkedin,Promoção MEI
 184,Google Ads,Feirão do Empreendedor
 54,Google Ads,Promoção MEI
 15,Google Ads,Pacote Contábil Premiu
-223,Linkedin,Promoção MEI
-231,Google Ads,Performance Extrema
 3,Google Ads,Campanha Tributária 2024
-265,Indicação,
-230,Indicação,
 110,Linkedin,Pacote Contábil Premiu
 137,Facebook Ads,Pacote Contábil Premiu
 76,Indicação,
 159,Google Ads,Feirão do Empreendedor
-273,Indicação,
 161,Evento Presencial,
 114,Indicação,
-247,Evento Presencial,
-236,Google Ads,Pacote Contábil Premiu
 144,Linkedin,Promoção MEI
 21,Google Ads,Promoção MEI
-225,Linkedin,Feirão do Empreendedor
-272,Google Ads,Feirão do Empreendedor
-295,Google Ads,Pacote Contábil Premiu
 119,Indicação,
 133,Facebook Ads,Performance Extrema
 122,Google Ads,Pacote Contábil Premiu
-294,Linkedin,Promoção MEI
 188,Evento Presencial,
 117,Indicação,
 191,Evento Presencial,
@@ -210,17 +148,12 @@ cliente_id,canal_aquisicao,nome_campanha
 132,Linkedin,Pacote Contábil Premiu
 200,Indicação,
 85,Facebook Ads,Feirão do Empreendedor
-226,Facebook Ads,Campanha Tributária 2024
 88,Evento Presencial,
-271,Linkedin,Pacote Contábil Premiu
 149,Google Ads,Feirão do Empreendedor
 205,Facebook Ads,Campanha Tributária 2024
-259,Linkedin,Campanha Tributária 2024
-298,Google Ads,Promoção MEI
 192,Linkedin,Feirão do Empreendedor
 184,Google Ads,Campanha Tributária 2024
 180,Evento Presencial,
-269,Indicação,
 82,Evento Presencial,
 68,Facebook Ads,Performance Extrema
 191,Google Ads,Campanha Tributária 2024
@@ -244,57 +177,38 @@ cliente_id,canal_aquisicao,nome_campanha
 173,Google Ads,Feirão do Empreendedor
 105,Facebook Ads,Feirão do Empreendedor
 32,Indicação,
-235,Facebook Ads,Promoção MEI
 60,Evento Presencial,
 171,Facebook Ads,Campanha Tributária 2024
 19,Evento Presencial,
 55,Linkedin,Promoção MEI
 52,Facebook Ads,Promoção MEI
 91,Linkedin,Performance Extrema
-294,Linkedin,Feirão do Empreendedor
-297,Facebook Ads,Performance Extrema
 86,Evento Presencial,
 200,Google Ads,Pacote Contábil Premiu
-235,Indicação,
 206,Google Ads,Feirão do Empreendedor
 185,Evento Presencial,
 67,Facebook Ads,Pacote Contábil Premiu
 117,Indicação,
-222,Indicação,
 102,Indicação,
-264,Linkedin,Feirão do Empreendedor
-246,Evento Presencial,
 176,Google Ads,Promoção MEI
 187,Facebook Ads,Campanha Tributária 2024
 161,Evento Presencial,
 5,Facebook Ads,Feirão do Empreendedor
-232,Indicação,
 101,Facebook Ads,Pacote Contábil Premiu
 50,Evento Presencial,
 24,Evento Presencial,
 72,Linkedin,Pacote Contábil Premiu
 45,Linkedin,Feirão do Empreendedor
-300,Evento Presencial,
 149,Facebook Ads,Feirão do Empreendedor
 59,Linkedin,Promoção MEI
-285,Facebook Ads,Campanha Tributária 2024
-273,Indicação,
 44,Evento Presencial,
-228,Facebook Ads,Feirão do Empreendedor
 56,Google Ads,Pacote Contábil Premiu
 137,Google Ads,Pacote Contábil Premiu
 60,Evento Presencial,
-262,Evento Presencial,
 42,Indicação,
-250,Facebook Ads,Feirão do Empreendedor
-297,Google Ads,Feirão do Empreendedor
 187,Indicação,
 141,Linkedin,Pacote Contábil Premiu
-257,Google Ads,Feirão do Empreendedor
 88,Facebook Ads,Performance Extrema
-233,Google Ads,Promoção MEI
-249,Indicação,
-258,Linkedin,Promoção MEI
 19,Evento Presencial,
 206,Indicação,
 26,Linkedin,Performance Extrema
