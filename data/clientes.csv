@@ -1,221 +1,221 @@
-ciente_id,nome,data_adesao,data_cancelamento,ticket_medio
-1,AlphaTec,27/02/2022,15/04/2024,7223.28
-2,NovaVisão,17/03/2023,08/03/2024,10315.44
-3,PrimeSol,26/04/2023,21/06/2024,11449.37
-4,BrasilCorp,28/11/2022,30/04/2024,2527.19
-5,EcoSolutions,23/05/2023,17/06/2024,5606.27
-6,ConectaBrasil,06/02/2022,05/08/2024,3838.00
-7,Visionari,04/10/2023,15/08/2024,9481.66
-8,GlobalServe,20/04/2022,11/09/2024,11780.98
-9,SuperMais,07/08/2023,12/08/2024,6002.96
-10,VerticeTech,07/05/2023,26/01/2024,4380.97
-11,SoluçõesVerde,10/07/2022,13/04/2024,3276.05
-12,TechNova,02/11/2023,15/10/2024,1511.54
-13,EnergiaPura,23/03/2022,09/11/2024,7544.05
-14,MaxPower,20/01/2022,25/02/2024,8201.20
-15,TransBrasil,27/08/2023,08/10/2024,1801.82
-16,IndústriaLider,07/02/2023,16/01/2024,9073.43
-17,ForteGás,21/02/2022,10/03/2024,6538.51
-18,Construtiva,09/02/2022,12/02/2024,9974.59
-19,Vantagem,23/07/2022,12/10/2024,8437.91
-20,LogisticaExpress,11/09/2022,01/06/2024,5567.40
-21,QualiMais,27/04/2022,25/11/2024,5769.11
-22,RediExpress,07/07/2023,09/03/2024,6944.26
-23,PlanetaVerde,08/12/2023,08/03/2024,3910.97
-24,Plenitude,30/11/2022,08/07/2024,2050.56
-25,SempreNova,14/04/2023,07/10/2024,2144.28
-26,UniBrasil,26/03/2023,11/04/2024,7220.48
-27,NovaEstrada,06/09/2022,08/02/2024,1619.01
-28,ConectaTech,22/12/2023,14/06/2024,10008.38
-29,MundoNovo,03/01/2023,30/03/2024,3366.86
-30,AgriPro,28/07/2023,07/03/2024,8045.66
-31,MaxEnergia,02/03/2023,03/08/2024,1621.93
-32,VerdiSol,15/07/2022,21/06/2024,2193.35
-33,ElevaBrasil,28/11/2023,05/09/2024,10195.81
-34,Progresso,26/03/2022,05/02/2024,8943.84
-35,SoluBrasil,14/10/2022,01/04/2024,2022.65
-36,InsumoBrasil,08/03/2023,22/11/2024,6073.07
-37,Recria,04/11/2022,14/02/2024,3903.36
-38,Expressa,17/02/2022,21/04/2024,2611.24
-39,Futura,14/09/2023,13/07/2024,7733.64
-40,ÁguasClaras,02/10/2022,02/09/2024,5214.57
-41,PowerTech,12/02/2023,22/10/2024,1974.96
-42,ProntaEntrega,28/02/2022,05/06/2024,3144.54
-43,Altiva,04/03/2022,18/01/2024,1450.80
-44,SoluTech,19/06/2023,05/07/2024,11980.70
-45,SoluçõesVivas,07/11/2023,15/01/2024,2661.70
-46,TrilhaBrasil,29/03/2023,09/04/2024,8565.58
-47,EcoPower,18/10/2023,26/03/2024,8406.77
-48,Grandiosa,14/03/2023,22/01/2024,8191.58
-49,PontoClaro,28/10/2023,15/08/2024,3319.61
-50,Dinâmica,10/09/2023,02/11/2024,6655.31
-51,NorteSul,23/12/2023,21/06/2024,9547.26
-52,VerdeMais,18/12/2022,24/06/2024,6997.91
-53,Equilibrio,09/12/2023,17/11/2024,8818.11
-54,Inova,22/11/2022,19/03/2024,4785.75
-55,IdealSol,28/05/2022,01/06/2024,9241.67
-56,AvanteBrasil,13/01/2022,10/05/2024,6128.02
-57,PortoVerde,19/08/2023,17/03/2024,4536.67
-58,Construcap,23/06/2023,14/05/2024,2611.37
-59,Inovarti,14/08/2023,02/01/2024,9785.37
-60,NovaTécnica,18/11/2022,03/08/2024,11021.19
-61,Excelência,06/02/2022,04/11/2024,9261.48
-62,Abastece,06/01/2023,22/02/2024,2864.39
-63,NaturaFlex,08/01/2022,29/01/2024,7335.33
-64,MeiaLua,22/05/2022,07/09/2024,11335.00
-65,AlvoBrasil,04/03/2023,11/04/2024,6695.20
-66,ArcoVerde,30/08/2022,19/07/2024,8090.83
-67,ÁguasVerdes,23/01/2023,20/07/2024,9258.83
-68,TerraNova,14/05/2022,29/05/2024,2365.52
-69,Circulo,24/10/2023,15/02/2024,1529.17
-70,MestreConstrução,23/02/2023,16/01/2024,4219.33
-71,EcoLider,19/09/2022,09/01/2024,11551.60
-72,MultiBrasil,09/01/2022,23/04/2024,10304.73
-73,Estrutural,17/09/2022,12/02/2024,9111.46
-74,TransNova,20/10/2022,13/01/2024,7413.61
-75,VisãoLider,16/11/2023,11/02/2024,8415.33
-76,AlfaServiços,03/12/2023,06/03/2024,2099.25
-77,Soltec,24/06/2022,03/10/2024,8253.78
-78,IdealBrasil,20/12/2022,01/02/2024,8457.21
-79,BancoVerde,14/09/2023,27/06/2024,2063.98
-80,AmplaVisão,08/09/2023,13/07/2024,2827.60
-81,VitalFlow,15/03/2022,22/02/2024,2071.91
-82,HorizonteAzul,14/08/2023,16/01/2024,7394.72
-83,HorizonteVerde,29/10/2023,16/10/2024,2663.68
-84,EcoConstrutora,23/02/2022,27/04/2024,5730.02
-85,ProjetoFuturo,16/10/2022,19/06/2024,5788.70
-86,Multiserv,29/09/2022,20/09/2024,11794.86
-87,Tecnolife,16/11/2023,17/05/2024,3825.26
-88,SempreViva,16/01/2022,27/03/2024,10045.64
-89,MaisFácil,30/06/2022,03/11/2024,2697.16
-90,GrandMax,24/12/2022,15/05/2024,6007.98
-91,Aerocar,24/10/2022,12/09/2024,10928.87
-92,MundialServiços,19/06/2023,01/07/2024,6163.40
-93,ComércioVivo,30/07/2023,29/07/2024,5975.58
-94,TecInova,05/01/2023,17/05/2024,9681.50
-95,RápidoBrasil,26/06/2023,30/08/2024,6633.20
-96,IndústriaPura,16/10/2023,18/11/2024,2133.09
-97,ÁguasVivas,01/10/2022,26/06/2024,3951.49
-98,NovaFase,16/05/2022,20/11/2024,6339.43
-99,UltraBrasil,11/09/2023,27/06/2024,4072.92
-100,SuperTrans,08/05/2023,23/05/2024,1613.69
-101,SempreBem,13/08/2023,12/04/2024,10119.58
-102,Avançar,03/04/2022,06/07/2024,3654.98
-103,TransExpress,15/02/2023,09/03/2024,3584.46
-104,Juntos,11/11/2023,11/09/2024,10665.52
-105,AgroLider,01/12/2022,06/07/2024,5496.38
-106,PlanetaNova,15/11/2022,12/10/2024,5562.70
-107,TerraPura,10/05/2022,21/11/2024,10327.91
-108,FastTrans,14/07/2022,26/04/2024,7695.90
-109,MoveBrasil,02/01/2023,15/01/2024,11294.04
-110,Ecolife,10/08/2023,08/11/2024,7076.76
-111,PlenaSaúde,02/11/2022,07/03/2024,5642.51
-112,ForçaBrasil,29/06/2023,18/06/2024,2230.80
-113,Unicontrol,28/09/2022,28/08/2024,6382.46
-114,EcoSul,26/04/2023,11/02/2024,6753.79
-115,SuperVerde,19/01/2023,05/06/2024,11403.00
-116,IndústriaNova,02/01/2023,08/02/2024,7368.95
-117,Vertice,28/11/2022,27/03/2024,2396.64
-118,PontoVivo,20/04/2023,25/05/2024,11379.14
-119,ForteSoluções,08/09/2023,14/09/2024,3673.52
-120,EstruturaMais,07/11/2023,12/11/2024,2921.22
-121,ExpressoSul,05/11/2023,17/05/2024,6384.75
-122,Integral,05/06/2022,13/04/2024,2736.74
-123,Pontual,16/12/2022,19/02/2024,4836.12
-124,BoaEstrada,01/08/2022,06/05/2024,8303.16
-125,CrescerMais,29/03/2023,01/04/2024,4440.15
-126,Ecocentro,31/01/2023,18/08/2024,6391.08
-127,AzulMar,24/05/2022,23/05/2024,11391.72
-128,ImpérioSul,26/01/2023,30/04/2024,5133.15
-129,TecnoFast,26/10/2023,01/01/2024,7832.89
-130,DeltaBrasil,01/07/2022,16/04/2024,11075.80
-131,ServiçoJá,17/12/2023,28/04/2024,2786.66
-132,Helios,20/01/2022,06/02/2024,6979.38
-133,VerãoSul,18/07/2023,25/04/2024,7403.24
-134,MaxiLog,11/08/2023,26/01/2024,7194.63
-135,GigaBrasil,01/08/2023,28/08/2024,9312.34
-136,Completa,14/07/2023,25/03/2024,8663.65
-137,NovaFonte,28/07/2023,06/08/2024,9353.72
-138,Potencial,29/06/2022,22/09/2024,7633.29
-139,Solarmax,08/01/2023,22/09/2024,4300.74
-140,AgroMais,12/06/2023,24/11/2024,7191.68
-141,Atlas,15/07/2023,04/02/2024,7692.13
-142,EcoTur,11/02/2022,02/11/2024,7064.58
-143,GlobalStar,11/02/2022,28/03/2024,10888.81
-144,AlphaBens,07/05/2022,18/08/2024,5809.78
-145,GlobalPonto,03/04/2022,14/08/2024,7018.10
-146,UniPower,20/01/2022,29/09/2024,8881.05
-147,VerticeSul,21/07/2022,19/10/2024,10304.71
-148,ProgressoVerde,23/12/2023,25/11/2024,1697.82
-149,SuperLider,26/09/2022,11/06/2024,9632.42
-150,Realiza,13/09/2022,17/11/2024,9211.22
-151,EnergiaViva,04/01/2022,15/06/2024,4701.36
-152,FábricaVerde,28/07/2023,13/08/2024,6449.51
-153,PlanetaSaúde,01/02/2022,15/04/2024,1667.58
-154,MundoVerde,04/10/2023,06/08/2024,10518.59
-155,LiderSaúde,14/10/2023,26/09/2024,1903.23
-156,Zênite,25/02/2022,26/03/2024,11695.99
-157,TransLider,26/08/2023,24/01/2024,5535.27
-158,PowerGreen,27/01/2023,16/05/2024,1839.12
-159,LíderSul,22/11/2022,20/04/2024,11570.11
-160,Forte,22/04/2022,19/08/2024,4155.24
-161,SistemaTotal,20/05/2022,30/09/2024,9399.10
-162,SoluçãoJá,09/03/2023,09/10/2024,7332.89
-163,MegaSoluções,21/10/2022,25/06/2024,4740.21
-164,Máxima,30/05/2022,26/01/2024,3899.41
-165,NovaSaúde,07/05/2022,22/07/2024,8427.17
-166,PlusBrasil,13/02/2022,30/05/2024,1629.59
-167,ProActiva,19/10/2022,30/08/2024,5668.56
-168,UltraPower,28/04/2022,25/03/2024,4309.06
-169,Exata,24/03/2022,19/06/2024,9339.50
-170,TransSul,08/10/2022,03/06/2024,9836.75
-171,IntegraMais,01/11/2022,25/05/2024,9802.75
-172,Ativa,21/01/2022,05/02/2024,10606.95
-173,EcoTécnica,26/08/2022,24/10/2024,6991.76
-174,FábricaPura,15/05/2023,31/05/2024,3335.86
-175,MundialTech,01/09/2023,05/08/2024,7713.51
-176,EcoNova,13/12/2023,07/02/2024,3644.11
-177,ForçaVerde,30/10/2023,13/01/2024,6325.00
-178,Horizonte,06/06/2022,21/09/2024,4942.10
-179,RaizVerde,20/01/2023,12/08/2024,8655.59
-180,BetaBrasil,30/11/2023,28/05/2024,9658.53
-181,NovaVia,25/08/2023,21/01/2024,9542.93
-182,MundoLider,10/12/2022,22/11/2024,1587.61
-183,PuraLuz,27/08/2022,18/02/2024,3319.97
-184,MundoTotal,02/03/2023,21/03/2024,11610.53
-185,EcoSoluções,12/04/2022,23/06/2024,6088.47
-186,MídiaBrasil,18/07/2023,11/10/2024,1486.38
-187,PlanetaConect,20/12/2023,22/05/2024,7939.71
-188,LitoralSul,13/04/2023,17/05/2024,4991.69
-189,BemEstar,04/04/2022,04/01/2024,11507.34
-190,EcoLine,06/07/2022,07/04/2024,1867.25
-191,GlobalTécnica,01/09/2023,16/09/2024,9348.07
-192,Compasso,22/03/2023,18/07/2024,7403.91
-193,ConectaMais,20/08/2023,12/09/2024,3049.71
-194,PrimeSoluções,21/10/2022,10/08/2024,3107.00
-195,Lógica,06/07/2022,27/04/2024,6485.66
-196,SementeVerde,13/04/2022,26/09/2024,1475.94
-197,FastLider,02/09/2022,22/01/2024,7552.60
-198,VentoSul,19/03/2022,01/05/2024,7499.22
-199,EletroBrasil,24/03/2023,23/04/2024,6421.09
-200,MaisBrasil,09/05/2022,06/02/2024,7810.06
-201,AutoLider,27/11/2022,04/07/2024,1706.56
-202,VerdiPower,20/09/2023,01/10/2024,2721.32
-203,RioSul,19/01/2023,22/08/2024,11244.45
-204,PontoForte,14/11/2022,17/10/2024,7651.60
-205,Verma,25/06/2022,16/01/2024,11056.96
-206,NobreSul,01/04/2023,16/08/2024,2367.41
-207,RápidoVerde,03/08/2023,13/08/2024,6069.54
-208,Solari,08/08/2022,07/11/2024,10489.51
-209,VérticeVerde,03/05/2023,13/06/2024,9810.58
-210,TopBrasil,08/11/2022,27/05/2024,2605.97
-211,NorteVerde,05/09/2022,18/03/2024,10621.07
-212,NovaEmpreendimentos,18/10/2023,09/01/2024,7515.33
-213,CentroSul,10/07/2022,26/11/2024,9811.02
-214,AgroPower,13/04/2023,25/03/2024,2662.21
-215,FlexBrasil,25/03/2023,06/09/2024,10249.15
-216,MegaLider,21/04/2022,13/10/2024,4701.37
-217,ÁguasMais,25/04/2022,06/06/2024,7273.56
-218,PrimeLider,04/02/2022,02/06/2024,6899.65
-219,SolNovo,13/03/2023,19/07/2024,6048.21
-220,TransBrasilTech,28/08/2022,07/07/2024,7904.64
+cliente_id,nome,data_adesao,data_cancelamento,ticket_medio,feedback
+48,Manta Engenharia,05/01/2022,01/09/2023,18118.16, "O serviço foi razoável, mas poderia ser melhor"
+157,Kyros Tecnologia,12/01/2022,,6130.32,"Excelente, o serviço foi rápido e eficaz."
+105,Jetron Engenharia,13/01/2022,,2767.79,
+160,Granitex Comércio,15/01/2022,10/01/2024,12184.85, "Não tenho grandes queixas, mas também não há nada de especial"
+196,Impetus Indústria,16/01/2022,,7553.35,
+204,Trilogia S.A.,24/01/2022,,17010.94,Fiquei impressionado com a qualidade do atendimento e serviço.
+19,YNova Engenharia,26/01/2022,,16556.76,Fiquei muito satisfeito com a atenção e cuidado.
+142,Valorix Indústria,28/01/2022,,9759.61,Profissionais muito capacitados e atenciosos.
+34,Ypsilon Engenharia,03/02/2022,,15440.06,
+35,Verus Engenharia,03/02/2022,24/12/2022,8063.35, "O trabalho foi feito, mas não foi tão detalhado quanto eu esperava"
+41,Bravix Automação,25/02/2022,,17408.74,"Excelente serviço, muito bem feito!"
+15,Estamina Indústria,02/03/2022,,2132.93,Equipe muito atenciosa e qualificada.
+175,Absoluta Engenharia,03/03/2022,06/04/2024,18676.01,
+197,Granitex Comércio,05/03/2022,,13793.22,Profissionais competentes e muito atenciosos.
+153,EcoSphere Comércio,13/03/2022,08/10/2022,16865.41, "Foi um serviço funcional, sem grandes avanços ou retrocessos"
+60,Quantech Logística,16/03/2022,19/06/2022,1400.39, "Não houve nada de errado com o serviço, mas também não foi um destaque"
+14,Impetus Indústria,03/04/2022,,8690.29,
+156,QuantaLog Soluções,16/04/2022,,3380.48,"Serviço excelente, com ótimo custo-benefício."
+56,Volante Indústria,20/04/2022,,18649.44,"Atendimento de qualidade, serviço muito bem feito."
+61,Y-Tech Indústria,23/04/2022,,14420.84,"Excelente qualidade e atendimento, estou satisfeito."
+117,Volante Indústria,27/04/2022,31/01/2023,10249.75,
+62,Nexon Consultoria,29/04/2022,,17258.58,Profissionais muito capacitados.
+146,AlfaMax Comércio,02/05/2022,,6178.02,"Profissionais competentes, serviço de alta qualidade."
+125,Celeris Soluções,03/05/2022,,10421.42,
+79,Octanix Comércio,08/05/2022,,13484.83,"Serviço muito bom, gostei bastante."
+101,Pivô Engenharia,25/05/2022,,2701.31,O atendimento foi rápido e eficiente.
+205,Júpiter Tecnologia,27/05/2022,,2412.06,
+211,Montis Engenharia,28/05/2022,19/11/2023,2667.93, "O serviço foi realizado como esperado, mas nada inovador"
+97,Zentric Comércio,29/05/2022,,4589.23,
+149,Telecrux Tecnologia,05/06/2022,,6798.15,"Serviço eficiente e rápido, muito bom!"
+123,Estelar Engenharia,07/06/2022,,1546.46,
+72,Estamina Indústria,08/06/2022,,5067.32,"Excelente atendimento, muito atenciosos!"
+198,Helix Comércio,18/06/2022,30/08/2022,4550.09, "O serviço foi bom, mas ainda há espaço para melhorar"
+50,Xenith Comércio,20/06/2022,,9386.89,
+127,Ferrovia Sul Logística,20/06/2022,,5984.76,O atendimento foi cordial e rápido.
+6,BetaWorks Tecnologia,26/06/2022,,3763.76,
+162,Raízes Agropecuária,26/06/2022,,8982.25,Profissionais competentes e atenciosos.
+190,Radiant Engenharia,28/06/2022,,10286.41,
+67,Utrion Serviços,29/06/2022,,15747.07,"Serviço muito bom, cumpriram o prometido."
+147,Zantech Consultoria,29/06/2022,,18299.87,
+95,Impetus Indústria,30/06/2022,,17455.88,"Serviço rápido, eficaz e de excelente qualidade."
+148,Yara Indústria Química,06/07/2022,08/04/2024,16379.92, "Não tenho grandes críticas, mas também não tenho grandes elogios"
+104,Kalon Serviços,20/07/2022,,15877.8,Estou muito satisfeito com o serviço prestado.
+180,Hórus Engenharia,25/07/2022,28/08/2022,13553.68,
+177,Valorix Indústria,02/08/2022,,11278.53,"Serviço muito bom, cumpriram o prometido."
+150,Verus Engenharia,06/08/2022,25/04/2024,12777.6, "O serviço foi executado conforme solicitado, mas não teve um toque especial"
+25,TechNova Engenharia,14/08/2022,,2578.35,
+114,Cydra Indústria,21/08/2022,25/06/2023,8950.95, "O serviço foi entregue conforme prometido, mas não superou minhas expectativas"
+43,Stratagem Engenharia,29/08/2022,,18040.83,
+93,Brastel Telecomunicações,02/09/2022,10/07/2023,3544.59, "O serviço foi entregue com muitos erros, o que me deixou frustrado"
+20,Leven Engenharia,06/09/2022,14/09/2022,4235.0, A qualidade do serviço foi bem abaixo do esperado
+106,Ustek Comércio,06/09/2022,17/09/2024,4711.02,
+219,Topaz Comércio,15/09/2022,,15989.89,"Ótima experiência, ficamos satisfeitos."
+192,Ciprox Indústria,25/09/2022,,2360.51,"Excelente, tudo foi perfeito."
+193,Fenix Tecnologia,05/10/2022,13/03/2024,9766.13,
+111,Veratex Consultoria,10/10/2022,,11174.27,"Serviço muito bom, realmente vale a pena."
+171,Evertech Tecnologia,16/10/2022,03/04/2024,7644.06, "O serviço foi incompleto, algumas partes não foram feitas corretamente"
+143,Zeus Comércio e Distribuição,18/10/2022,,14204.27,
+85,Zircon Indústria,24/10/2022,,10116.8,"Fui muito bem atendido, recomendo!"
+52,Quark Indústria,27/10/2022,,13177.56,"Serviço de altíssima qualidade, indico a todos."
+159,Cedro S.A.,27/10/2022,07/07/2023,10754.72,
+212,Impetus Indústria,02/11/2022,,5295.88,"Excelente atendimento, profissionais muito qualificados."
+28,Kinetix Engenharia,03/11/2022,03/04/2024,6256.88,
+172,Optima Consultoria,03/11/2022,,8532.3,"Excelente, tudo foi perfeito."
+80,Montis Engenharia,06/11/2022,,10622.71,"Serviço muito bom, realmente vale a pena."
+122,Quiron Consultoria,08/11/2022,,12588.53,
+210,Pivô Engenharia,09/11/2022,,12250.08,"Fiquei impressionado com a qualidade do atendimento e serviço."
+199,Ximex Comércio e Indústria,15/11/2022,,7614.84,Excelente qualidade no serviço!
+173,Verus Engenharia,22/11/2022,25/04/2024,3867.1,
+69,Hotwave Soluções,25/11/2022,,15750.31,"Atendimento maravilhoso, todos muito educados."
+90,Vértice Soluções Tecnológicas,01/12/2022,,9228.66,
+133,Valorix Indústria,02/12/2022,,4603.42,"Serviço muito bom, os profissionais são de alta qualidade."
+53,HiperTech Consultoria,03/12/2022,,9494.85,Fiquei muito satisfeito com o serviço prestado.
+112,Optima Consultoria,05/12/2022,,4383.26,
+110,Bravion Consultoria,22/12/2022,,1896.09,"Muito bom, o serviço foi excelente."
+64,Katalyst Indústria,29/12/2022,,11896.68,"Ótimo serviço, atendimento e qualidade impecáveis."
+215,Tactix Tecnologia,09/01/2023,14/07/2024,14909.67,
+218,Midas Indústria,09/01/2023,,8948.8,
+102,Zentric Comércio,12/01/2023,,11552.41,"Muito bom, o serviço atendeu todas as minhas expectativas."
+63,Impetus Indústria,16/01/2023,,5019.7,
+128,Hotwave Soluções,23/01/2023,05/11/2023,2603.66, "A qualidade foi ok, mas não me fez querer voltar"
+92,Volante Indústria,24/01/2023,,6836.98,
+108,Bravion Consultoria,30/01/2023,31/03/2024,6918.52, "O serviço foi razoável, mas não me causou uma impressão positiva ou negativa"
+119,Quiron Consultoria,04/02/2023,,15748.55,
+22,Qlick Comércio,09/02/2023,20/03/2023,10437.06,
+37,Andromeda Engenharia,13/02/2023,22/05/2024,5487.15,
+161,Impar Serviços,13/02/2023,,9295.53,
+179,Lector Comércio,27/02/2023,,2239.85,
+209,BetaWorks Tecnologia,05/03/2023,21/04/2024,7312.25,
+44,Abrastex Soluções,07/03/2023,,16979.93,
+118,Lector Comércio,07/03/2023,24/01/2024,10633.19,
+194,Veratex Consultoria,07/03/2023,25/04/2024,12671.91,
+187,Jatobá Comércio,09/03/2023,,4577.34,
+12,WebLink Consultoria,21/03/2023,19/05/2024,4151.28,
+4,Mídia Max Comunicação,25/03/2023,26/05/2024,3055.44,
+182,Haze Comunicação,27/03/2023,,12983.11,
+213,Novatek Tecnologia,07/04/2023,25/04/2024,4791.77, "O serviço foi razoável, sem pontos altos ou baixos"
+186,Optima Consultoria,10/04/2023,,8288.98,
+139,Quiron Consultoria,13/04/2023,08/05/2023,11649.96, "A experiência foi satisfatória, mas poderia ser mais agradável"
+207,Raízes Agropecuária,14/04/2023,,4240.64,
+129,Ciprox Indústria,18/04/2023,,3465.15,
+21,Kyros Tecnologia,26/04/2023,,18187.88,Profissionais competentes e educados.
+45,Qlick Comércio,27/04/2023,25/04/2024,3516.16,
+98,Vértice Soluções Tecnológicas,27/04/2023,,9388.26,"Excelente qualidade e atendimento, estou satisfeito."
+99,Solis Indústria,03/05/2023,,9906.43,
+66,Duxon Consultoria,18/05/2023,25/04/2024,17101.88,
+51,Sanar Tecnologia,28/05/2023,,8406.79,"Serviço muito bom, com um atendimento excelente."
+103,Veratex Consultoria,28/05/2023,,2367.42,
+208,Jatec Consultoria,30/05/2023,06/10/2023,12784.63, A qualidade do serviço foi bem abaixo do esperado
+168,Quiron Consultoria,03/06/2023,11/06/2023,13575.53,
+220,Topaz Comércio,04/06/2023,,1713.97,
+130,Verus Engenharia,08/06/2023,29/06/2024,10170.11, A comunicação foi confusa e não me ajudou a resolver nada
+83,Falconix Engenharia,15/06/2023,03/04/2024,16657.01,
+3,Radiant Engenharia,19/06/2023,,10260.13,
+200,LumaLog Comércio,19/06/2023,,12063.45,
+154,Absoluta Engenharia,23/06/2023,25/04/2024,10281.87, "A experiência foi frustrante, houve vários problemas no processo"
+191,Novatek Tecnologia,24/06/2023,,2047.27,
+71,Celeris Soluções,27/06/2023,17/04/2024,9806.69,
+78,Ypsilon Comércio,29/06/2023,,10802.95,"Ótimo serviço, indico a todos."
+11,Leven Engenharia,30/06/2023,25/04/2024,11870.9,
+42,Estelar Engenharia,02/07/2023,,17745.07,
+165,Soluções Integradas,02/07/2023,,15416.1,"Muito bom, serviço de qualidade e realizado com eficiência."
+2,Pivotal Engenharia,08/07/2023,22/06/2024,7581.36,
+91,Zantech Consultoria,11/07/2023,25/04/2024,9762.6, O serviço foi de baixa qualidade e não resolveu meu problema
+131,Estamina Indústria,17/07/2023,,8208.62,Profissionais muito capacitados e educados.
+75,Winsoft Indústria,20/07/2023,16/09/2024,2084.77,
+84,XenonLog Comércio,22/07/2023,,10430.72,"Excelente, superou minhas expectativas!"
+70,Stratagem Engenharia,30/07/2023,,13444.1,
+138,Yara Indústria Química,30/07/2023,25/04/2024,6301.67,
+124,Spectra Telecom,03/08/2023,,18514.69,"Serviço impecável, muito eficiente."
+33,Ellex Comércio Exterior,15/08/2023,,8212.95,
+10,Luxor Comércio e Distribuição,22/08/2023,25/04/2024,12678.98,
+8,Quantech Logística,25/08/2023,,17665.27,"Profissionais qualificados, serviço muito bem feito."
+58,Xtreme Comércio e Serviços,26/08/2023,,3510.99,
+57,Abrastex Soluções,30/08/2023,22/04/2024,8346.32, "O serviço foi muito aquém do que eu esperava, não valeu a pena"
+121,Horizonte Logística,13/09/2023,,1849.24,
+140,Helix Comércio,18/09/2023,,14921.7,
+183,MagnoTech Comércio,19/09/2023,,2500.66,"Serviço rápido, eficaz e de excelente qualidade."
+120,Duxon Consultoria,28/09/2023,,10407.94,
+137,YNova Engenharia,02/10/2023,04/12/2023,9805.79, "O serviço foi entregue no tempo esperado, mas a qualidade poderia ser mais alta"
+87,Optima Consultoria,03/10/2023,,18866.2,"Excelente atendimento, tudo perfeito."
+76,Quark Indústria,08/10/2023,,1722.55,
+59,WebLink Consultoria,17/10/2023,25/04/2024,9816.27, "O serviço foi concluído, mas com algumas falhas pequenas"
+166,Rodrix Comércio,18/10/2023,,16900.56,
+188,Ferrovia Sul Logística,23/10/2023,25/04/2024,10689.08, "O serviço foi realizado de forma eficiente, mas sem entusiasmo"
+113,Leven Engenharia,28/10/2023,,18101.4,"Muito bom, um serviço realizado com perfeição."
+77,Telecrux Tecnologia,03/11/2023,05/05/2024,7942.26,
+169,Mídia Max Comunicação,05/11/2023,,9234.3,Excelente qualidade de serviço e atendimento.
+206,Estamina Indústria,05/11/2023,,13208.93,
+100,Horizonte Logística,07/11/2023,,7392.86,"Excelente atendimento, a equipe é fantástica!"
+32,Leven Engenharia,10/11/2023,09/01/2024,16874.37, "A qualidade é aceitável, mas há espaço para melhorias"
+195,BravaTech Comércio,14/11/2023,,3085.66,"Muito bom, o serviço foi rápido e eficiente."
+54,NovaWave Logística,18/11/2023,,9490.16,
+216,MyTech Engenharia,21/11/2023,28/02/2024,14890.87, "Cumpriu o objetivo, mas o processo poderia ter sido mais rápido"
+47,Katalyst Indústria,22/11/2023,,18560.96,
+17,Equinox Engenharia,29/11/2023,14/03/2024,6341.62, "O serviço foi entregue, mas a comunicação poderia ter sido melhor"
+145,Mídia Max Comunicação,04/12/2023,,2865.29,
+164,Trilogia S.A.,30/12/2023,,6575.26,"O atendimento foi maravilhoso, não tenho reclamações."
+144,Lumen Automação,10/01/2024,,15970.45,Excelente qualidade de serviço e atendimento.
+181,Ciron Comércio,11/01/2024,,18572.44,
+96,Soluções Integradas,15/01/2024,06/12/2024,9354.45, "O atendimento foi bom, mas o serviço não superou minhas expectativas"
+9,EcoSolution Engenharia,19/01/2024,,17187.05,O serviço foi realizado com muito cuidado e atenção.
+174,HiperTech Consultoria,19/01/2024,,11942.39,
+134,Abrastex Soluções,27/01/2024,,6445.85,"O atendimento foi maravilhoso, muito bom mesmo."
+185,Zantech Consultoria,01/02/2024,,9341.52,
+55,Ciprox Indústria,09/02/2024,,12895.83,Profissionais muito capacitados e educados.
+18,Estelar Engenharia,12/02/2024,,7356.0,
+27,Duxon Consultoria,11/03/2024,25/07/2024,3570.7, "A experiência foi decente, mas sem algo que me fizesse recomendar"
+178,Kalon Serviços,21/03/2024,24/10/2024,11372.26, "O trabalho foi feito, mas não é algo que eu recomendaria ativamente"
+135,Pivotal Engenharia,30/03/2024,,8650.49,
+24,Rexo Tecnologia,03/04/2024,,3031.76,"Profissionais qualificados e atentos às necessidades."
+176,Duxon Consultoria,08/04/2024,21/12/2024,4117.22,
+73,Xerion Tecnologia,12/04/2024,,15594.68,O atendimento foi impecável!
+94,Quivon Indústria,20/04/2024,15/08/2024,13188.95, "A entrega foi pontual, mas a qualidade não foi excepcional"
+30,Stratagem Engenharia,24/04/2024,,10950.68,
+163,Xenith Comércio,25/04/2024,06/09/2024,9396.41, "O serviço foi razoável, sem pontos altos ou baixos"
+202,Orbitex Consultoria,27/04/2024,,7102.46,O atendimento foi rápido e eficiente.
+74,Telecrux Tecnologia,05/05/2024,,12936.32,
+7,UniTech Comércio,17/05/2024,31/05/2024,5122.47, "Não tenho grandes críticas, mas também não tenho grandes elogios"
+68,Novatek Tecnologia,17/05/2024,,3977.4,
+86,HiperTech Consultoria,24/05/2024,30/07/2024,6985.08, "O serviço foi aceitável, mas não vejo motivo para recomendar"
+23,EcoSphere Comércio,25/05/2024,,5812.06,"Muito bom, recomendo a todos."
+46,Estamina Indústria,29/05/2024,23/09/2024,3269.61,
+82,Impetus Indústria,30/05/2024,,2268.79,"Atendimento muito bom, são rápidos e eficientes."
+189,Jetron Engenharia,06/06/2024,,18450.73,"Serviço rápido, eficaz e de excelente qualidade."
+151,RioTech Soluções,13/06/2024,,1976.08,
+16,Novus Telecom,22/06/2024,,4331.85,"Atendimento maravilhoso, todos muito educados."
+36,Xpandit Tecnologia,25/06/2024,,10461.26,
+141,Equinox Engenharia,30/06/2024,19/10/2024,15419.54, "O atendimento foi péssimo, não foram úteis em nenhum momento"
+5,Evertech Tecnologia,02/07/2024,,10184.75,"Fiquei muito satisfeito com o serviço, super recomendo."
+203,Trilogia S.A.,03/07/2024,,14627.88,
+49,LumaLog Comércio,14/02/2024,25/03/2024,9008.39, "O serviço não atendeu à minha expectativa, fiquei bastante decepcionado"
+29,Cydra Indústria,29/07/2024,,4303.82,
+1,Rodrix Comércio,10/03/2024,14/03/2024,10095.86, "O serviço foi incompleto, algumas partes não foram feitas corretamente"
+214,DynaTech Indústria,11/08/2024,,6651.99,
+184,Estelar Engenharia,12/08/2024,01/11/2024,8393.26, O trabalho foi feito de forma apressada e não com a qualidade que eu esperava
+136,AlfaMax Comércio,18/08/2024,,3994.45,
+158,BravaTech Comércio,26/01/2024,21/03/2024,10922.48, O atendimento foi impessoal e não me senti valorizado como cliente
+13,Lançar Tecnologia,29/08/2024,04/11/2024,12950.89, "O serviço não foi feito como solicitado, faltaram detalhes importantes"
+167,EcoSphere Comércio,02/09/2024,,9575.14,
+65,Equinox Engenharia,06/05/2024,18/05/2024,11027.12, A entrega foi muito atrasada e sem uma justificativa clara
+107,Umbrasil Comércio,07/09/2024,,1965.6,
+109,Haze Comunicação,22/09/2024,16/12/2024,2669.22, O serviço foi de baixa qualidade e não resolveu meu problema
+39,Granitex Comércio,23/09/2024,25/11/2024,10848.04,
+26,Reflektor Tecnologia,28/09/2024,,5045.55,Profissionais competentes e atenciosos.
+155,TechNova Engenharia,28/02/2024,05/04/2024,9405.86, O serviço foi cobrado de forma errada e ninguém se responsabilizou
+88,Conexão Global,02/10/2024,,8065.11,
+132,BetaWorks Tecnologia,14/03/2024,18/07/2024,13654.29, O serviço foi desorganizado e não cumpriu com o prometido
+115,Andromeda Engenharia,18/03/2024,25/05/2024,8709.04, "Não gostei da qualidade do serviço, foi muito aquém do esperado"
+116,Qlick Comércio,18/10/2024,,11801.98,
+201,Octanix Comércio,24/03/2024,04/06/2024,17950.22, O serviço foi mal executado e gerou mais problemas do que soluções
+40,Jatec Consultoria,25/03/2024,27/07/2024,15786.12,
+170,Lynx Indústria,30/10/2024,,12817.74,O serviço foi eficiente e bem executado.
+126,XenonLog Comércio,04/11/2024,06/11/2024,8174.41, "O serviço foi muito aquém do que eu esperava, não valeu a pena"
+38,Irix Logística,06/11/2024,,12178.22,
+217,Abrastex Soluções,09/01/2024,19/05/2024,6581.97, Não houve comprometimento por parte da equipe e fiquei muito insatisfeito
+152,Jatobá Comércio,13/11/2024,,14560.27,"Atendimento rápido e eficiente."
+31,Yngrid Engenharia,21/06/2024,08/11/2024,16731.37,
+81,Kaizen Engenharia,28/11/2024,,15911.64,Estou muito satisfeito com o serviço prestado.
+89,Telecrux Tecnologia,01/03/2024,03/05/2024,2621.81,

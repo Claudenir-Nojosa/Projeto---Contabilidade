@@ -15,32 +15,32 @@ ORDER BY lucro_total DESC;
 SELECT COUNT(c.nome) AS total_clientes, m.canal_aquisicao
 FROM cliente c
 INNER JOIN marketing m
-ON c.cliente_id = m.cliente_id
+ON c.clientes_id = m.clientes_id
 GROUP BY m.canal_aquisicao;
 
 -- Eficiência Operacional: Operacional + Colaboradores
 
-SELECT col.primeiro_nome, col.segundo_nome, COUNT(op.cliente_id) AS total_servicos,
+SELECT col.primeiro_nome, col.segundo_nome, COUNT(op.clientes_id) AS total_servicos,
 op.tempo_atraso_entrega,
 col.salario
 FROM operacional op
 INNER JOIN colaborador col
 ON op.colaborador_id = col.colaborador_id
 GROUP BY col.primeiro_nome, col.segundo_nome, op.tempo_atraso_entrega,col.salario
-ORDER BY COUNT(op.cliente_id) DESC;
+ORDER BY COUNT(op.clientes_id) DESC;
 
 -- Desempenho Estratégico: Financeiro + Marketing
 
 SELECT 
     m.nome_campanha,
     SUM(f.receita) AS receita_total,
-    COUNT(f.cliente_id) AS total_clientes
+    COUNT(f.clientes_id) AS total_clientes
 FROM 
     financeiro f
 INNER JOIN 
     marketing m
 ON 
-    f.cliente_id = m.cliente_id
+    f.clientes_id = m.clientes_id
 GROUP BY 
     m.nome_campanha
 ORDER BY 
