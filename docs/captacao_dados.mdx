@@ -251,3 +251,121 @@ ORDER BY
     receita_total DESC;
 
 ```
+
+### 15. Relacionando Adesões e Cancelamentos de Clientes
+
+Criei um Jupyter Notebook que tem como objetivo explorar os dados de clientes, analisando a relação entre as adesões e os cancelamentos ao longo do tempo. Utilizei o Python, juntamente com as bibliotecas `pandas`, `sqlalchemy`, `plotly` e `panel`, para acessar os dados do PostgreSQL, processá-los e criar visualizações interativas.
+
+#### **Configuração do Ambiente**
+
+Para configurar o ambiente, utilizei variáveis de ambiente armazenadas em um arquivo `.env`. Isso garante que informações sensíveis, como credenciais de acesso ao banco de dados, não sejam expostas diretamente no código.
+
+```python
+from sqlalchemy import create_engine
+import pandas as pd
+import plotly.express as px
+from dotenv import load_dotenv
+import panel as pn
+import plotly.graph_objects as go
+import os
+
+# Usar o Plotly como visualização
+pn.extension("plotly")
+
+# Variáveis do arquivo .env
+load_dotenv()
+
+# Conexão com o Banco de Dados
+usuario = os.getenv("DB_USER")
+senha = os.getenv("DB_PASSWORD")
+host = os.getenv("DB_HOST")
+port = os.getenv("DB_PORT")
+nome_do_banco = os.getenv("DB_NAME")
+
+engine = create_engine(
+    f"postgresql+psycopg2://{usuario}:{senha}@{host}:{port}/{nome_do_banco}"
+)
+```
+
+#### **Extração e Transformação dos Dados**
+
+Os dados foram carregados diretamente do banco de dados PostgreSQL e organizados para análise. As colunas de data foram convertidas para o formato `datetime` e os dados foram agrupados por mês para facilitar a visualização das tendências.
+
+```python
+# Carregando a tabela do banco de dados
+cliente = pd.read_sql("SELECT * FROM cliente", con=engine)
+
+# Convertendo as colunas de data para datetime
+cliente["data_adesao"] = pd.to_datetime(cliente["data_adesao"])
+cliente["data_cancelamento"] = pd.to_datetime(cliente["data_cancelamento"])
+
+# Agrupando por mês e contando os clientes
+adesoes = (
+    cliente.groupby(cliente["data_adesao"].dt.to_period("M"))
+    .size()
+    .reset_index(name="quantidade")
+)
+cancelamentos = (
+    cliente.dropna(subset=["data_cancelamento"])
+    .groupby(cliente["data_cancelamento"].dt.to_period("M"))
+    .size()
+    .reset_index(name="quantidade")
+)
+
+# Convertendo o índice de Period para datetime
+adesoes["data_adesao"] = adesoes["data_adesao"].apply(lambda x: x.start_time)
+cancelamentos["data_cancelamento"] = cancelamentos["data_cancelamento"].apply(
+    lambda x: x.start_time
+)
+```
+
+#### **Visualização dos Dados**
+
+Com o auxílio do `plotly.graph_objects`, criei um gráfico interativo que exibe a evolução das adesões e cancelamentos ao longo do tempo. O gráfico foi customizado para incluir marcadores, legendas, títulos e um tema agradável.
+
+```python
+# Criando os gráficos com Plotly
+fig = go.Figure()
+
+# Adicionando o gráfico de adesões
+fig.add_trace(
+    go.Scatter(
+        x=adesoes["data_adesao"],
+        y=adesoes["quantidade"],
+        mode="lines+markers",
+        name="Adesões",
+    )
+)
+
+# Adicionando o gráfico de cancelamentos
+fig.add_trace(
+    go.Scatter(
+        x=cancelamentos["data_cancelamento"],
+        y=cancelamentos["quantidade"],
+        mode="lines+markers",
+        name="Cancelamentos",
+    )
+)
+
+# Personalizando o layout do gráfico
+fig.update_layout(
+    title="Adesões e Cancelamentos de Clientes",
+    xaxis_title="Data",
+    yaxis_title="Quantidade de Clientes",
+    legend_title="Legenda",
+    template="seaborn",
+    width=1200,
+    height=450,
+)
+
+# Exibindo o gráfico
+fig.show()
+```
+
+#### **Resultados Obtidos**
+
+O gráfico gerado oferece insights valiosos sobre o comportamento dos clientes:
+- **Adesões**: Mostram os períodos de maior aquisição de novos clientes.
+- **Cancelamentos**: Evidenciam momentos críticos em que os clientes decidiram encerrar seus contratos.
+
+Essa análise pode ser utilizada para identificar sazonalidades, avaliar o impacto de campanhas de marketing e tomar decisões estratégicas para aumentar a retenção de clientes.
