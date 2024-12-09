@@ -369,3 +369,49 @@ O gráfico gerado oferece insights valiosos sobre o comportamento dos clientes:
 - **Cancelamentos**: Evidenciam momentos críticos em que os clientes decidiram encerrar seus contratos.
 
 Essa análise pode ser utilizada para identificar sazonalidades, avaliar o impacto de campanhas de marketing e tomar decisões estratégicas para aumentar a retenção de clientes.
+
+
+### 16. Relacionando Lucro total por Serviços Prestados
+
+Criei um Jupyter Notebook também com o intuito de analisar qual que foi o lucro total por serviço, além de saber qual o serviço no escritório que possui o maior lucro.
+
+#### Receita, despesa, lucro dos Serviços - Total
+#### Tabelas Serviço e Financeiro
+servico = pd.read_sql("servico", con=engine)
+financeiro = pd.read_sql("financeiro", con=engine)
+#### JOIN nas duas tabelas
+servico_lucro_prejuizo = pd.merge(servico, financeiro, how="inner", on="servico_id")
+#### Agrupar os dados por serviço para métricas, depois ordenar por lucro de forma crescente
+
+``` sql
+agrupado = (
+    servico_lucro_prejuizo.groupby("nome_servico")
+    .agg({
+        "receita": "sum",
+        "despesa": "sum",
+        "lucro": "sum",
+    })
+    .sort_values(by="lucro", ascending=True)
+    .reset_index()
+)
+
+print(agrupado.head())
+```
+
+#### Gráfico Comparação de Receita, Despesa e Lucro por Serviço
+
+``` sql
+fig = px.bar(
+    agrupado,
+    x="nome_servico",
+    y=["receita", "despesa", "lucro"],
+    title="Comparação de Receita, Despesa e Lucro por Serviço",
+    labels={"value": "Valor (R$)", "nome_servico": "Serviço", "variable": "Variáveis"},
+    barmode="group",
+    width=1200,
+    height=600,
+    template="seaborn",
+)
+
+fig.show()
+```
